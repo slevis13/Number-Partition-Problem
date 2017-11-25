@@ -24,6 +24,6 @@ Simulated annealing attempts to move to neighboring solutions as well, though it
 
 The program examines each of the heuristic algorithms and, concurrently, the effect of "pre-partitioning" on the problem instance. Pre-partitioning is not an algorithm itself, but an alternate way of representing the problem. You can think of pre-partitioning as the opposite of differencing; where differencing splits two values into opposite solution sets, pre-partitioning forces two values into the same solution set.
 
-The program first generates a random instance of the number partition problem. This instance is run through each of the four algorithms. For the three heuristics (repeated random, hill climbing, and simulated annealing), the instance runs first in its standard representation, then in a pre=partitioned representation. 
+The program first generates a random instance of the number partition problem. This instance is run through each of the four algorithms. For the three heuristics (repeated random, hill climbing, and simulated annealing), the instance runs first in its standard representation, then in a pre-partitioned representation. 
 
 
