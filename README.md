@@ -20,7 +20,7 @@ Hill climbing repeatedly attempmts to "climb" to a better, neighboring solution,
 
 Simulated annealing attempts to move to neighboring solutions as well, though it also allows occasional moves to "worse" solutions. This is done so that the algorithm might avoid trapping itself in a local optimum, as hill climbing is apt to do.
 
-# Pre-partitioning
+### Pre-partitioning
 
 The program examines each of the heuristic algorithms and, concurrently, the effect of "pre-partitioning" on the problem instance. Pre-partitioning is not an algorithm itself, but an alternate way of representing the problem. You can think of pre-partitioning as the opposite of differencing; where differencing splits two values into opposite solution sets, pre-partitioning forces two values into the same solution set.
 
